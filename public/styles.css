@@ -1,9 +1,36 @@
 
 body {
-  background-color: red;
+  background-color: #adadeb;
+}
+
+img {
+  border:1px solid #021a40;
+  background-color:#ff0;
+}
+
+#contender {
+  padding: 5px;
+}
+
+#wrapper {
+ float: right;
+ margin: 1%;
+ width: 80%;
+}
+
+#banner {
+ padding:10px;
+ width: 100%;
+ color: #333;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 100px;
+ margin: 10px 0px 0px 0px;
+ background: #DAC8BF;
 }
 
 #main {
+  width: 100%;
   position:relative;
   margin-left:75px;
 }
@@ -20,11 +47,46 @@ body {
   margin: auto;
 }
 
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  padding: 10px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#content_footer{
+  margin: auto;
+}
+
 nav {
   position:fixed; // keep fixed to window
   padding: 10px;
-  top: 10%; left: 0;
-  height:100%; width:50px;
+  top: 10%; left: 5px;
+  height:100%; width:20%;
 }
 
 a:link {

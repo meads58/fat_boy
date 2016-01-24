@@ -1,21 +1,42 @@
+<nav>
+  <h2>Contenders</h2>
+  <div class="btn-group-vertical" role="group">
+    <button class="btn btn-default" onclick="changeImage('fat_rutt.jpg');">Rutter</button>
+    <button class="btn btn-default" onclick="changeImage('fat_cam.jpg');">Pop-a-Bear</button>
+  </div>
+</nav>
+
+<div id="wrapper">
 
 <header id="banner" class="body">
   Fat Boy Slimmers 2016
 </header>
 
-
-<nav>
-  <ul>
-    <li><a href="/contenders">Rutter</a></li>
-    <li> Pop-a-Bear </li>
-  </ul>
-</nav>
-
 <div id="main" class="body">
-  TEAM
+  <img id="contender" src="fat_kid.jpg">
 </div>
 
 
 <footer id="content_footer" class="body">
-  Weigh In
+  <div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
 </footer>
+
+</div>
+<script src="countdown.js"></script>
