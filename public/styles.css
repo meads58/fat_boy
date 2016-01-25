@@ -8,8 +8,20 @@ img {
   background-color:#ff0;
 }
 
+.main_title {
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  margin: 0 auto;
+  width: 80%;
+}
+.fancy_text {
+  font-family: 'Sigmar One', cursive;
+  font-size: 40px;
+}
+
 #contender {
   padding: 5px;
+  margin: 20px;
 }
 
 #wrapper {
@@ -20,7 +32,7 @@ img {
 
 #banner {
  padding:10px;
- width: 100%;
+ width: 80%;
  color: #333;
  padding: 10px;
  border: 1px solid #ccc;
@@ -55,8 +67,9 @@ img {
   text-align: center;
   font-size: 30px;
   position: absolute;
-  left: 50%;
+  left: 40%;
   padding: 10px;
+  width: 50%;
 }
 
 #clockdiv > div{
@@ -80,6 +93,7 @@ img {
 
 #content_footer{
   margin: auto;
+  padding: 10px;
 }
 
 nav {
