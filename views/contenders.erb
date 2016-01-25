@@ -1,12 +1,6 @@
-<nav>
-  <div class="fancy_text">Contenders</div>
-  <div class="btn-group-vertical" role="group">
-    <button class="btn btn-default fancy_text" onclick="changeImage('fat_rutt.jpg');">Rutter</button>
-    <button class="btn btn-default fancy_text" onclick="changeImage('fat_cam.jpg');">Pop-a-Bear</button>
-  </div>
-</nav>
 
-<div id="wrapper">
+
+<!-- <div id="wrapper">
 
 <header id="banner" class="body">
   <div class="main_title">Welcome To Fat Boy Slimmers 2016</div>
@@ -17,30 +11,94 @@
 </div>
 
 
-<footer id="content_footer" class="body">
+<div id="content_footer" style="overflow: hidden;">
   <div class="fancy_text" style="float: left; padding:20px; width: 50%">
     Who wears short, shorts in t minus:
   </div>
   <div id="clockdiv" >
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
+    <div>
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
   </div>
 </div>
 
-</footer>
-
 </div>
+<script src="countdown.js"></script>
+ -->
+<div id="wrapper">
+        <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <div class="sidebar_text" style="color: pink;">
+            Contenders
+        </div>
+      </li>
+      <li>
+        <button class="btn btn-default sidebar_text" onclick="changeImage('fat_rutt.jpg');">Rutter</button>
+      </li>
+      <li>
+        <button class="btn btn-default sidebar_text" onclick="changeImage('fat_cam.jpg');">Pop-a-Bear</button>
+      </li>
+    </ul>
+  </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="banner" class="body">
+              <div class="main_title">Welcome To Fat Boy Slimmers 2016</div>
+            </div>
+            <div id="main" class="body">
+              <img id="contender" src="fat_kid.jpg">
+            </div>
+            <div id="content_footer" style="overflow: hidden;">
+              <div class="fancy_text" style="float: left; padding:20px; width: 50%">
+                 Who wears short, shorts in t minus:
+              </div>
+              <div id="clockdiv" >
+                <div>
+                  <span class="days"></span>
+                  <div class="smalltext">Days</div>
+                </div>
+                <div>
+                  <span class="hours"></span>
+                  <div class="smalltext">Hours</div>
+                </div>
+                <div>
+                  <span class="minutes"></span>
+                  <div class="smalltext">Minutes</div>
+                </div>
+                <div>
+                  <span class="seconds"></span>
+                  <div class="smalltext">Seconds</div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- /#page-content-wrapper -->
+</div>
+
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 <script src="countdown.js"></script>
